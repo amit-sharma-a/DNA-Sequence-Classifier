@@ -12,9 +12,9 @@ import os, pickle
 
 
 def getData():
-    human_data = pd.read_table('/home/amit/Documents/human_data.txt')
-    chimp_data = pd.read_table('/home/amit/Documents/chimp_data.txt')
-    dog_data = pd.read_table('/home/amit/Documents/dog_data.txt')
+    human_data = pd.read_table('human_data.txt')
+    chimp_data = pd.read_table('chimp_data.txt')
+    dog_data = pd.read_table('dog_data.txt')
     return human_data, chimp_data, dog_data
 
 def filter_Data(X):
